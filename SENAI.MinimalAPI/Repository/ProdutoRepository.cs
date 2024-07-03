@@ -4,7 +4,7 @@ namespace SENAI.MinimalAPI.Repository
 {
     public class ProdutoRepository
     {
-        List<Produto> listaProdutos = new List<Produto>()
+        List<Produto> listaProdutos = new()
         {
             new Produto()
             {

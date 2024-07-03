@@ -12,6 +12,8 @@ var repo = new ProdutoRepository();
 
 using var db = new ProdutoContext();
 
+// app.MapControllers();
+
 app.UseSwagger();
 
 app.MapGet("/", () => db.DbPath);
